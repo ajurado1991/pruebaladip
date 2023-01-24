@@ -1,0 +1,327 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&family=Quicksand:wght@300;400;500&display=swap');
+body {
+    font-family: "Alegreya Sans", sans-serif;
+    background-color: #F8F9F9  ;
+}
+
+/* ********** Estilos Header ********** */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    margin-bottom: 4px;
+}
+
+.navBar1 ul {
+    margin-right: 12px;
+}
+
+.navBar1 li {
+    list-style: none;
+    display: inline-block;
+    /* border-right: 1px black solid; */
+}
+
+.navBar1 a {
+    text-decoration: none;
+    margin-right: 4px;
+    margin-left: 4px;
+    color: black;
+}
+
+.logoLadipPrincipal {
+    height: 100px;
+    width: 210px;
+}
+
+
+
+/* ********** Estilos del Banner Principal ********** */
+
+.bannerPrincipal {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;   
+    align-items: end;
+    /* height: 500px; */
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/323645/pexels-photo-323645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 30%;
+}
+
+.bannerPrincipal h1 {
+    color: black;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+.bannerPrincipal a {
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+    font-size: 24px;
+    border: .5px rgba(0, 0, 0, 0.226) solid;
+    box-shadow: .5px .5px .5px;
+    border-radius: 2px;
+    padding: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+
+
+
+/* ********** Estilos del Banner Secundario ********** */
+
+.bannerSecundario {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;   
+    align-items: end;
+    /* height: 500px; */
+    height: calc(100vh - 120px);
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/6758773/pexels-photo-6758773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 60%;
+    margin-top: 12px;
+}
+
+.bannerSecundario p{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 100;
+    margin-right: 12px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 8px;
+}
+.bannerSecundario a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px #D5D8DC solid;
+    border-radius: 4px;
+    /* box-shadow: 1px 1px 1px; */
+    padding: 4px;
+}
+
+
+
+
+/* ********** Estilos del Contenido Principal del Index ********** */
+
+
+.contenidoPrincipalIndex{
+    margin-top: 12px;
+}
+
+.contenidoPrincipalIndex h2{
+    font-size: 28px;
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+}
+
+.contenidoPrincipalIndex h3{
+    font-size: 24px;
+    border-bottom: 1px #D5D8DC solid;
+}
+
+.contenidoPrincipalIndex div{
+    display: flex;
+    align-items: center;
+}
+
+.contenidoPrincipalIndex img{
+    height: 100%;
+    width: 50%;
+}
+
+.contenidoPrincipalIndex span{
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.contenidoPrincipalIndex a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px #D5D8DC solid;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+
+
+/* ********** Estilos del Contenido Principal de Empresa ********** */
+
+.contenidoPrincipalEmpresa {
+    margin-top: 12px;
+}
+
+.contenidoPrincipalEmpresa h2{
+    font-size: 28px;
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+}
+
+.contenidoPrincipalEmpresa h3{
+    font-size: 24px;
+    margin-top: 80px;
+}
+
+/* .somos {
+    display:flex;
+    justify-content: space-evenly;
+} */
+
+.contenidoPrincipalEmpresa div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .carpinterasEllas {
+    height: 50%;
+    width: 50%;
+} */
+
+.contenidoPrincipalEmpresa img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.contenidoPrincipalEmpresa span{
+    margin-left: 28px;
+    margin-right: 28px;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ********** Estilos del Contenido Principal de Proyectos ********** */
+
+.contenidoPrincipalProyectos {
+    margin-top: 12px;
+}
+
+.contenidoPrincipalProyectos h2{
+    font-size: 28px;
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+}
+
+.contenidoPrincipalProyectos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenidoPrincipalProyectos span {
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.contenidoPrincipalProyectos img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ********** Estilos del Contenido Principal de Cotizaciones ********** */
+
+.contenidoPrincipalCotizaciones {
+    margin-top: 12px;
+}
+
+.contenidoPrincipalCotizaciones h2{
+    font-size: 28px;
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+}
+
+/* .contenidoPrincipalCotizaciones form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+} */
+
+.contenidoPrincipalCotizaciones form {
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+}
+
+/* ********** Estilos del Contenido Principal de Contacto ********** */
+
+.contenidoPrincipalContacto {
+    margin-top: 12px;
+}
+
+.contenidoPrincipalContacto h2{
+    font-size: 28px;
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+}
+
+.contenidoPrincipalContacto div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenidoPrincipalContacto span {
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+}
+
+.contenidoPrincipalContacto form {
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+}
+
+
+/* ********** Estilos del Footer ********** */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px black solid;
+    padding:12px
+}
+
+.logoIg {
+    height: 20px;
+    width: 20px;
+}
+
+.logoFb {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+/* ********** Estilos del botón del whatsapp ********** */
+
+
+.whatsappBoton {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+
+}
