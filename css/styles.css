@@ -374,7 +374,10 @@ body {
     font-size: 28px;
     border-bottom: 1px black solid;
     margin-top: 8px;
+    border-top: 1px black solid;
+    padding: 16px;
 }
+
 
 .contenidoPrincipalProyectos div{
     display: flex;
@@ -385,11 +388,36 @@ body {
 .contenidoPrincipalProyectos span {
     margin-left: 28px;
     margin-right: 28px;
+    padding: 16px;
 }
 
 .contenidoPrincipalProyectos img {
     height: 100%;
     width: 100%;
+}
+
+@media (max-width: 360px) {
+
+    .contenidoPrincipalProyectos h2{
+        font-size: 28px;
+        border-bottom: 1px black solid;
+        margin-top: 8px;
+    }
+
+    .contenidoPrincipalProyectos div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenidoPrincipalProyectos span {
+        padding: 5%;
+    }
+
+    .contenidoPrincipalProyectos img {
+        border-radius: 8px;
+    }
+
+    
 }
 
 
