@@ -77,7 +77,7 @@ body {
     padding-bottom: 2px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
 
     /* Media Query del navbar y banner principal */
     .navBar1 {
@@ -153,7 +153,7 @@ body {
 }
 
 
-@media (max-width: 360px){
+@media (max-width: 600px){
     
     /* Media Query del banner secundario */
 
@@ -235,7 +235,7 @@ body {
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
         /* MediaQuery del contenido principal  */
 
         .contenidoPrincipalIndex{
@@ -343,7 +343,7 @@ body {
     width: 100%;
 }
 
-@media (max-width: 360px){
+@media (max-width: 600px){
 
     .contenidoPrincipalEmpresa div {
         display: flex;
@@ -397,7 +397,7 @@ body {
     width: 100%;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
 
     .contenidoPrincipalProyectos h2{
         font-size: 28px;
@@ -449,7 +449,7 @@ body {
     margin-bottom: 28px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .contenidoPrincipalCotizaciones {
         display: flex;
         flex-direction: column;
@@ -496,7 +496,7 @@ body {
     margin-bottom: 28px;
 }
 
-@media (max-width: 360px){
+@media (max-width: 600px){
 
     .contenidoPrincipalContacto div {
         display: flex;
@@ -534,7 +534,7 @@ footer {
     width: 20px;
 }
 
-@media (max-width: 360px){
+@media (max-width: 600px){
     footer {
         display: flex;
         flex-direction: column;
@@ -568,7 +568,7 @@ footer {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .whatsappBoton {
         width: 28px;
         height: 28px;
