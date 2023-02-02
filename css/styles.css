@@ -305,6 +305,8 @@ body {
     font-size: 28px;
     border-bottom: 1px black solid;
     margin-top: 8px;
+    border-top: 1px black solid;
+    padding: 16px;
 }
 
 .contenidoPrincipalEmpresa h3{
@@ -341,6 +343,26 @@ body {
     width: 100%;
 }
 
+@media (max-width: 360px){
+
+    .contenidoPrincipalEmpresa div {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .contenidoPrincipalEmpresa img {
+        border-radius: 12px;
+    }
+
+    .contenidoPrincipalEmpresa h3 {
+        padding: 5%;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+
+}
 
 /* ********** Estilos del Contenido Principal de Proyectos ********** */
 
