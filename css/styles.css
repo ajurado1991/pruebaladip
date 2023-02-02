@@ -44,7 +44,7 @@ header {
     display: flex;
     flex-direction: column;   
     justify-content: center;   
-    align-items: end;
+    align-items: flex-end;
     /* height: 500px; */
     height: calc(100vh - 100px);
     width: 100%;
@@ -52,37 +52,6 @@ header {
     background-size: cover;
     background-position-x: center;
     background-position-y: 30%;
-}
-
-@media (max-width: 360px) {
-
-    /* Media Query del navbar y banner principal */
-    .navBar1 {
-        display: none;
-    }
-
-    .logoLadipPrincipal {
-        height: 47px;
-        width:  100px;
-    }
-
-    .bannerPrincipal {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        background-image: url(https://images.pexels.com/photos/323645/pexels-photo-323645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-        background-size: cover;
-        background-position-x: center;
-        background-position-y: 30%;
-    }
-
-    .bannerPrincipal h1 {
-        color: black;
-        margin-right: 6px;
-        margin-bottom: 0px;
-        font-size: 12px;
-        font-weight: 400;
-    }
 }
 
 .bannerPrincipal h1 {
@@ -103,9 +72,44 @@ header {
     padding: 4px;
     padding-top: 2px;
     padding-bottom: 2px;
-
 }
 
+@media (max-width: 360px) {
+
+    /* Media Query del navbar y banner principal */
+    .navBar1 {
+        display: none;
+    }
+
+    .logoLadipPrincipal {
+        height: 67px;
+        width:  147px;
+    }
+
+    .bannerPrincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        background-image: url(https://images.pexels.com/photos/323645/pexels-photo-323645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        background-size: cover;
+        background-position-x: 60%;
+        background-position-y: 30%;
+    }
+
+    .bannerPrincipal h1 {
+        color: black;
+        margin-right: 12px;
+        margin-left: 12px;
+        font-size: 24px;
+        font-weight: 400;
+        background-color: #ffffffa6;
+    }
+
+    .bannerPrincipal a {
+        font-size: 20px;
+    }
+}
 
 
 
@@ -173,8 +177,12 @@ header {
         font-size: 16px;
         font-weight: 50;
         padding: 4px;
-        background-color: rgba(0, 0, 0, 0.562);
+        background-color: rgba(0, 0, 0, 0.808);
         border-radius: 8px;
+    }
+
+    .bannerSecundario a{
+        font-size: 16px;
     }
 
 }
